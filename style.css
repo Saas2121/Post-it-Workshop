@@ -2,24 +2,24 @@ body {
     font-family: sans-serif; 
     padding: 20px; 
     background-color: #f4f4f4; 
-    color: #333; 
+    color: #000000; 
     transition: background-color 0.5s, color 0.5s; 
 }
 .dark-mode { 
-    background-color: #ff0000; 
-    color: #00fff2; 
+    background-color: #000000;  /*cambiar el color de fondo del modo oscuro a negro*/
+    color: #ffffff;  /*cambiar el color del texto del modo oscuro a blanco*/
 }
 #app-container { 
-    max-width: 60px; 
-    margin: auto; 
+    max-width: 900px; 
+    margin: 40px auto; 
     background: white; 
     padding: 20px; 
-    border-radius: 45px; 
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
     transition: background-color 0.5s; 
 }
 .dark-mode #app-container { 
-    background-color: #c500f6; 
+    background-color: #424242;  /*cambiar el color de fondo  del contenedor del modo oscuro a gris*/
 }
 #new-note-input { 
     width: 80%; 
